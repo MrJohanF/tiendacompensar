@@ -1,0 +1,42 @@
+
+.homePage{
+    -fx-background-image:url('Inicio.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+
+
+.aboutUs{
+    -fx-background-image:url('Nosotros.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+
+.products{
+    -fx-background-image:url('productos.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+
+.empleados{
+    -fx-background-image:url('empleados.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+
+.graficos{
+    -fx-background-image:url('graficos.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+
+
+.panelShadow {
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);
+    -fx-background-color: white;
+}

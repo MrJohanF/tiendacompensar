@@ -1,0 +1,116 @@
+
+
+.btnHeaderMenu {
+    -fx-background-color: rgba(231, 1, 1, 0);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.btnHeaderMenuSelected {
+    -fx-background-color: rgba(231, 1, 1, 0);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ffffff;
+}
+
+.btnOptionGeneral{
+    -fx-background-color: #ff6d00;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 11;
+}
+
+
+
+.txtGraphicValue {
+    -fx-background-color: #e70101;
+    -fx-border-width: 1;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 20 20 20 20;
+    -fx-text-fill: #ffffff;
+}
+
+
+
+.txtLabel{
+    -fx-text-fill: #ff6d00;
+}
+
+.txtLabelTitle{
+    -fx-text-fill: #ff6d00;
+}
+
+
+.txtField{
+    -fx-background-color: transparent;
+    -fx-border-color: #ff6d00;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 5 0;
+    -fx-text-inner-color: #000000;
+}
+
+
+.choiceBox {
+    -fx-background-color: transparent;
+    -fx-border-color: #ff6d00;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 5 0;
+    -fx-text-inner-color: #000000;
+
+}
+
+.choiceBox .arrow {
+    -fx-background-color: #ff6d00;
+}
+
+
+.choiceBoxmini {
+    -fx-background-color: #ff6d00;
+    -fx-text-inner-color: #fdfdfd;
+
+}
+
+
+.choiceBoxmini .arrow {
+    -fx-background-color: white;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #ff6d00;
+    -fx-text-fill: #ffffff;
+}
+
+
+.date-picker .arrow-button {
+    -fx-background-color: #ff6d00;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #ffffff;
+}
+
+
+.btnBack{
+    -fx-background-color: #ff5900;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 20 20 20 20;
+    -fx-text-fill: #ffffff;
+    -fx-position: absolute;
+    -fx-z-index: 1000;
+}
+
+
+.labelBack{
+    -fx-text-fill: #ffffff;
+    -fx-z-index: 10;
+    -fx-background-color: #ff5900;
+    -fx-background-radius: 20 20 20 20;
+    -fx-transition: background-color 0.3s ease-in-out;
+
+}
+
+
+.labelBack:hover {
+    -fx-background-color: #d74000;
+}
